@@ -1,0 +1,31 @@
+.footer-container{
+display:flex;
+ height:210px;
+   justify-content:space-between;
+background-color:grey;
+}
+.footer-child{
+margin-top:30px;
+height:180px;
+width:180px;
+
+}
+.footer-child a{
+color:white;
+text-align:center;
+font-size:15px;
+text-decoration:none;
+padding-left:20px;
+}
+
+#foot1{
+flex-grow:1;
+}
+#foot2{
+flex-grow:1;
+
+}
+#foot3{
+flex-grow:2;
+
+}

@@ -1,0 +1,38 @@
+*{
+	margin:0%;
+padding:0%;
+}
+
+.nav-container{
+	display:flex;
+height:60px;
+background-color:red;
+justify-content:flex-end;
+justify-content:space-around;
+align-items:center;
+}
+.nav-child{
+	
+	font-size:25px;
+	
+	border-radius:15px;
+	padding-top:7px;
+	padding-bottom:7px;
+	padding-left:7px;
+	padding-right:7px;
+
+}
+.nav-child:hover{
+  background-color:black;
+}
+.nav-child a{
+	color:white;
+	text-decoration:none;
+}
+
+#order{
+background-color:green;
+}
+#order a:hover{
+	color:black;
+}

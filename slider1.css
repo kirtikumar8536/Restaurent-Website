@@ -1,0 +1,49 @@
+body{
+	background-color:black;
+}
+
+
+.outbox{
+ width:px;
+ height:300px;
+ width:1200px;
+ 
+}
+.slidebox{
+position:relative;
+width:3600px;
+/*animation work starts from here*/
+animation-name:richa;
+animation-duration:15s;
+animation-iteration-count:infinite;
+
+
+}
+.slidebox img{
+	float:left;
+	margin-left:300px;
+	margin-right:300px;
+}
+@keyframes richa{
+  0%{
+	  left:0px;
+  }
+  26.6%{
+	  left:0px;
+  }
+  33.3%{
+	  left:-1200px;
+  }
+  60%{
+	  left:-1200px;
+  }
+  66.6%{
+  left:-2400px;
+  }
+  93.33%{
+  left:-2400px;
+  }
+  100%{
+  left:-3600px;
+  }
+}
